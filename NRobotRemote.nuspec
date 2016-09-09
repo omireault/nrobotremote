@@ -10,16 +10,16 @@
         <tags>robotframework robot framework test automation</tags>
         <language>en-US</language>
 		<dependencies>
-			<group targetFramework="net46">
+			<group targetFramework="net45">
 				<dependency id="log4net" version="[2.0.3]" />
 				<dependency id="xmlrpcnet" version="[2.5.0]" />
 			</group>
 		</dependencies>
 	 </metadata>
 	<files>
-		<file src="build\AnyCpu\NRobotRemote.dll" target="lib\net46"/>
-		<file src="build\AnyCpu\NRobotRemote.Exceptions.dll" target="lib\net46"/>
-		<file src="build\AnyCpu\NRobotRemoteTray.exe" target="lib\net46" />
-		<file src="build\AnyCpu\NRobotRemoteTray.exe.config" target="lib\net46" />
+		<file src="build\AnyCpu\NRobotRemote.dll" target="lib\net45"/>
+		<file src="build\AnyCpu\NRobotRemote.Exceptions.dll" target="lib\net45"/>
+		<file src="build\AnyCpu\NRobotRemoteTray.exe" target="lib\net45" />
+		<file src="build\AnyCpu\NRobotRemoteTray.exe.config" target="lib\net45" />
 	</files>
 </package>
